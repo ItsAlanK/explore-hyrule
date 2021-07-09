@@ -26,7 +26,7 @@ Colors were lifted from sample page text and screenshots of actual gameplay to c
 *created using [coolors.co](https://coolors.co/)*
 
 ### Fonts ##
-The fonts and overall design are also influenced by the gameplay UI and guide book design in order to make the site fit in with already existing branding. Both are sourced from [Google Fonts](https://fonts.google.com/specimen/Cinzel+Decorative?preview.text=Explore%20Hyrule&preview.text_type=custom&category=Display#standard-styles)
+The fonts and overall design are also influenced by the gameplay UI and guide book design in order to make the site fit in with already existing branding. Both fonts are sourced from [Google Fonts](https://fonts.google.com/specimen/Cinzel+Decorative?preview.text=Explore%20Hyrule&preview.text_type=custom&category=Display#standard-styles)
 
 ## Features ##
 
