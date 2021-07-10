@@ -52,6 +52,8 @@ header {
 #nav-menu {
     clear: both;
     display: none;
+    position: relative;
+    background-color: #2b2b2b;
 }
 
 #nav-menu li {
@@ -75,7 +77,6 @@ header {
 /* Hero Image */
 .hero-image {
     width: 100%;
-    height: auto;
 }
 
 /* media queries (breakpoints chosen in line with bootstrap standards) */
@@ -106,7 +107,7 @@ header {
         clear: none;
         float: right;
         letter-spacing: 1px;
-        font-size: 120%;
+        font-size: 1em;
         font-weight: bolder;
         line-height: 75px;
 
