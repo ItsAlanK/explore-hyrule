@@ -33,6 +33,34 @@ The fonts and overall design are also influenced by the gameplay UI and guide bo
 ## Testing ##
 
 ## Bugs ##
+* Bug - Menu icon in mobile header required 2 clicks to reveal navigation menu on page load
+
+* Solution - Reverse Javascript function if statement is checking for display style block first instead of none
+
+### was: ###
+```javascript
+
+function hideMenu() {
+        var x = document.getElementById("nav-menu");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+```
+### now: ###
+```javascript
+
+function hideMenu() {
+        var x = document.getElementById("nav-menu");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+```
 
 ## Deployment ##
 
