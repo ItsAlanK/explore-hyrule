@@ -163,7 +163,7 @@ Used to create fade in effect as hero image changes to next*/
 
     /* resizes hero image to ensure content below appears above the page fold */
     .hero-image {
-        width: 70%;
+        width: 68%;
         border: 5px outset #b99f65;
     }
 }
