@@ -13,7 +13,7 @@ body {
     color: #3a3a3a;
 }
 
-/* headings and logo */
+/* headings and logo and hamburger icon */
 h1,
 h2 {
     font-family: 'Cinzel Decorative', 'Lucida Sans', sans-serif;
@@ -24,24 +24,21 @@ h2 {
 #logo {
     float: left;
     margin-left: 20px;
+}
+
+#menu-icon {
+    float: right;
+    margin-right: 20px;
+}
+
+#logo,
+#menu-icon {
     padding: 2px;
     font-size: 1.5em;
     line-height: 75px;
 }
 
 /* nav links */
-nav {
-    background-color: #2b2b2b;
-}
-
-#menu-icon {
-    float: right;
-    margin-right: 20px;
-    padding: 2px;
-    font-size: 1.5em;
-    line-height: 75px;
-}
-
 header {
     display: block;
     height: 5em;
@@ -114,8 +111,7 @@ header {
         clear: none;
         float: right;
         letter-spacing: 1px;
-        font-size: 1em;
-        font-weight: bolder;
+        font-size: 0.9em;
         line-height: 75px;
 
         /*reverse list direction to display in correct order */
