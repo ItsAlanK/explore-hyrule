@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Promotional page for The Legend of Zelda: Breath of the Wild">
     <meta name="keywords" content="Nintendo, Legend of Zelda, Breath of the Wild, video game, lore, promotion">
-    
+
     <title>Explore Hyrule</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <header id="home">
+        <!-- container for section of header which stays visible on mobile -->
         <div id="mobile-header-main">
             <a href="index.html">
                 <h1 id="logo">Explore Hyrule</h1>
             </a>
-            <h1 id="menu-icon"><i class="fas fa-bars"></i></h1>
+            <h1 id="menu-icon"><i class="fas fa-bars" onclick="hideMenu()"></i></h1>
         </div>
         <nav>
             <ul id="nav-menu">
@@ -52,10 +55,22 @@
         Form
     </section>
     <footer>
-        social links 
+        social links
     </footer>
 </body>
 
+<script>
+    function hideMenu() {
+        var x = document.getElementById("nav-menu");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+
 <!-- font awesome script -->
 <script src="https://kit.fontawesome.com/50309a1295.js" crossorigin="anonymous"></script>
+
 </html>

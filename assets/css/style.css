@@ -44,7 +44,7 @@ header {
 
 #nav-menu {
     clear: both;
-    display: block;
+    display: none;
     letter-spacing: 1px;
     font-size: 120%;
     font-weight: bolder;
