@@ -40,8 +40,14 @@
         </nav>
     </header>
     <section id="hero-image-container">
-        <div>
+        <div class="slideshow">
             <img src="assets/images/botw-title-image-2.jpg" class="hero-image" alt="">
+        </div>
+        <div class="slideshow">
+            <img src="assets/images/botw-title-image-1.jpg" class="hero-image" alt="">
+        </div>
+        <div class="slideshow">
+            <img src="assets/images/botw-title-image-3.jpg" class="hero-image" alt="">
         </div>
     </section>
     <section>
@@ -61,8 +67,10 @@
     </footer>
 </body>
 
-<!-- mobile menu icon script-->
+
 <script>
+    /* mobile menu icon script repurposed from w3schools toggle hide lesson:
+     https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp */
     function hideMenu() {
         var x = document.getElementById("nav-menu");
         if (x.style.display === "block") {
@@ -70,6 +78,21 @@
         } else {
             x.style.display = "block";
         }
+    }
+
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("slideshow");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 6000);
     }
 </script>
 
