@@ -25,6 +25,7 @@ h1 {
     margin-left: 20px;
     padding: 2px;
     font-size: 2em;
+    line-height: 75px;
 }
 
 /* nav links */
@@ -32,6 +33,7 @@ h1 {
     background-color: #3b3b3b;
     padding: 5px 0;
 }
+
 #nav-menu {
     clear: both;
     display: block;
@@ -49,4 +51,30 @@ h1 {
 #nav-menu a{
     text-decoration: none;
     color: #b99f65;
+}
+
+#nav-menu a:hover {
+    color: #fdfbfc;
+}
+
+/* media queries */
+/* for larger screens 768px and up */
+@media screen and (min-width: 768px) {
+    #nav-menu {
+        clear: none;
+        float: right;
+        letter-spacing: 1px;
+        font-size: 120%;
+        font-weight: bolder;
+        line-height: 75px;
+        
+        /*reverse list direction to display in correct order */
+        display: flex;
+        flex-direction: row;
+    }
+
+    #nav-menu li {
+        float: right;
+        margin-right: 20px;
+    }
 }
