@@ -76,8 +76,11 @@ header {
 
 /* Hero Image Slideshow */
 .hero-image {
+    display: block;
     width: 100%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Fading animation taken from w3schools along with script for slideshow.
@@ -87,17 +90,27 @@ Used to create fade in effect as hero image changes to next*/
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .2} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .2} 
-    to {opacity: 1}
-  }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .2
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .2
+    }
+
+    to {
+        opacity: 1
+    }
+}
 
 /* media queries (breakpoints chosen in line with bootstrap standards) */
 /* for screens above 370px */
@@ -146,5 +159,9 @@ Used to create fade in effect as hero image changes to next*/
 @media screen and (min-width: 992px) {
     #logo {
         font-size: 2.2em;
+    }
+
+    .hero-image {
+        width: 70%;
     }
 }
