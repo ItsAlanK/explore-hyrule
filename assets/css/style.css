@@ -29,6 +29,9 @@ h1 {
 }
 
 /* nav links */
+nav{
+    background-color: #2b2b2b;
+}
 #menu-icon {
     float: right;
     margin-right: 20px;
@@ -38,6 +41,8 @@ h1 {
 }
 
 header {
+    display: block;
+    height: 5em;
     padding: 5px 0;
     background-color: #2b2b2b;
 }
@@ -53,7 +58,7 @@ header {
 #nav-menu li {
     text-align: center;
     list-style-type: none;
-    margin: 2px;
+    padding: 10px 0;
 }
 
 #nav-menu a {
@@ -78,10 +83,8 @@ header {
 @media screen and (min-width: 768px) {
 
     /* nav links */
-    header {
-        display: flex;
-        background-color: #2b2b2b;
-        justify-content: space-between;
+    #mobile-header-main {
+        display: block;
     }
 
     /* remove menu icon as main navbar takes over */
