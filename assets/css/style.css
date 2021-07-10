@@ -86,35 +86,6 @@ header {
     margin-right: auto;
 }
 
-/* Fading animation taken from w3schools along with script for slideshow.
-Used to create fade in effect as hero image changes to next*/
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {
-        opacity: .2
-    }
-
-    to {
-        opacity: 1
-    }
-}
-
-@keyframes fade {
-    from {
-        opacity: .2
-    }
-
-    to {
-        opacity: 1
-    }
-}
-
 /* media queries (breakpoints chosen in line with bootstrap standards) */
 /* for screens above 370px */
 @media screen and (min-width: 370px) {
@@ -155,6 +126,35 @@ Used to create fade in effect as hero image changes to next*/
     #nav-menu li {
         margin-right: 20px;
         padding: 0;
+    }
+
+    /* Fading animation taken from w3schools along with script for slideshow.
+    Used to create fade in effect as hero image changes to next*/
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {
+            opacity: .2
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .2
+        }
+
+        to {
+            opacity: 1
+        }
     }
 }
 
