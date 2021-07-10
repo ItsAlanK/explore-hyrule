@@ -29,8 +29,9 @@ h1 {
 }
 
 /* nav links */
-#home {
+header {
     padding: 5px 0;
+    background-color: #2b2b2b;
 }
 
 #nav-menu {
@@ -59,6 +60,12 @@ h1 {
 /* media queries (breakpoints chosen in line with bootstrap standards) */
 /* for medium to large screens 768px and up */
 @media screen and (min-width: 768px) {
+    /* nav links */
+    header{
+        display: flex;
+        background-color: #2b2b2b;
+        justify-content: space-between;
+    }
     #nav-menu {
         clear: none;
         float: right;
@@ -72,8 +79,7 @@ h1 {
         flex-direction: row;
     }
 
-    #nav-menu li {
-        float: right;
+    #nav-menu li{
         margin-right: 20px;
     }
 }
