@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Raleway&display=swap');
 
-h1{
-    font-family: 'Cinzel Decorative', cursive;
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    background-color: #fdfbfc;
+}
+
+/* headings and logo */
+h1 {
+    font-family: 'Cinzel Decorative','Lucida Sans', sans-serif;
     font-weight: 900;
 }
