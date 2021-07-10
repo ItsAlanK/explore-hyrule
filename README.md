@@ -32,7 +32,7 @@ The fonts and overall design are also influenced by the gameplay UI and guide bo
 
 ### Existing Features ###
 * Responsive Navigation Bar
-    * At the top of the site there is a fully responsive navigation bar which links to the different sections within the page using internal links
+    * At the top of the site there is a fully responsive navigation bar, functional down to screen widths of 320px, which links to the different sections within the page using internal links
     * On mobile screen sizes the navigation links are hidden to save screen space and can be revealed with a hamburger icon in the top right corner of the page
     * This allows the user to jump to lower sections of the page if the do not wish to scroll through all of the content
 
