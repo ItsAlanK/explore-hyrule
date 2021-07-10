@@ -40,13 +40,13 @@
         </nav>
     </header>
     <section id="hero-image-container">
-        <div class="slideshow">
+        <div class="slideshow fade">
             <img src="assets/images/botw-title-image-2.jpg" class="hero-image" alt="">
         </div>
-        <div class="slideshow">
+        <div class="slideshow fade">
             <img src="assets/images/botw-title-image-1.jpg" class="hero-image" alt="">
         </div>
-        <div class="slideshow">
+        <div class="slideshow fade">
             <img src="assets/images/botw-title-image-3.jpg" class="hero-image" alt="">
         </div>
     </section>
@@ -80,6 +80,9 @@
         }
     }
 
+    /* code from w3schools js slideshow lesson https://www.w3schools.com/howto/howto_js_slideshow.asp
+    script assigns index value to class and adds to the counter every 6 seconds toggling the display 
+    of the next image from none to block to none again as it goes*/
     var slideIndex = 0;
     showSlides();
 
