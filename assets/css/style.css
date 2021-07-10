@@ -82,7 +82,7 @@ header {
 /* for medium to large screens 768px and up */
 @media screen and (min-width: 768px) {
 
-    /* nav links */
+/* nav links */
     #mobile-header-main {
         display: block;
     }
@@ -107,6 +107,7 @@ header {
 
     #nav-menu li {
         margin-right: 20px;
+        padding: 0;
     }
 }
 
