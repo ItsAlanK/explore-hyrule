@@ -37,7 +37,9 @@ The fonts and overall design are also influenced by the gameplay UI and guide bo
     * This allows the user to jump to lower sections of the page if the do not wish to scroll through all of the content
 
 
+### Potential Future Features ###
 
+* Hero image slideshow could be replaced by promotional video if desired
 
 ## Testing ##
 
