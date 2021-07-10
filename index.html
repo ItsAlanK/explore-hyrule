@@ -81,7 +81,7 @@
     }
 
     /* code from w3schools js slideshow lesson https://www.w3schools.com/howto/howto_js_slideshow.asp
-    script assigns index value to class and adds to the counter every 6 seconds toggling the display 
+    script assigns index value to class and adds to the counter every 4.5 seconds toggling the display 
     of the next image from none to block to none again as it goes*/
     var slideIndex = 0;
     showSlides();
@@ -95,7 +95,7 @@
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}
     slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 6000);
+    setTimeout(showSlides, 4500);
     }
 </script>
 
