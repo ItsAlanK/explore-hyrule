@@ -74,7 +74,7 @@ function hideMenu() {
 ```
 * Bug - Fade animation on Hero image transition causes navigation menu on mobile version to fade as well
 
-* Solution - TBD
+* Solution - _Temporary Solution: Moved fade animation css to media query so it does not effect mobile nav menu_
 
 ## Deployment ##
 
