@@ -74,13 +74,14 @@ header {
     color: #fdfbfc;
 }
 
-/* Hero Image */
+/* Hero Image Slideshow */
 .hero-image {
     width: 100%;
     height: auto;
 }
 
-/* Fading animation taken from w3schools along with script for slideshow */
+/* Fading animation taken from w3schools along with script for slideshow.
+Used to create fade in effect as hero image changes to next*/
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
