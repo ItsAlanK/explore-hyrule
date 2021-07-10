@@ -37,7 +37,7 @@ The fonts and overall design are also influenced by the gameplay UI and guide bo
 
 * Solution - Reverse Javascript function if statement is checking for display style block first instead of none
 
-### was: ###
+was:
 ```javascript
 
 function hideMenu() {
@@ -49,7 +49,7 @@ function hideMenu() {
         }
     }
 ```
-### now: ###
+now: 
 ```javascript
 
 function hideMenu() {
