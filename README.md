@@ -76,9 +76,12 @@ function hideMenu() {
 ## Credits ##
 
 ### Design ###
-Color palette created in: [Coolors.co](https://coolors.co/)
 
-Fonts sourced from: [Google Fonts](https://fonts.google.com/specimen/Cinzel+Decorative?preview.text=Explore%20Hyrule&preview.text_type=custom&category=Display#standard-styles)
+* Source material, characters, designs and brands are owned by Nintendo and is not being used for commercial purposes
+
+* Color palette created in: [Coolors.co](https://coolors.co/)
+
+* Fonts sourced from: [Google Fonts](https://fonts.google.com/specimen/Cinzel+Decorative?preview.text=Explore%20Hyrule&preview.text_type=custom&category=Display#standard-styles)
 
 ### Code ###
-Function used to show and hide mobile navigation found on: [w3schools.com](https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp)
+* Function used to show and hide mobile navigation found on: [w3schools.com](https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp)
