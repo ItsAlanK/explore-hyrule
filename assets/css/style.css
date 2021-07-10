@@ -1,19 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Raleway&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: none;
 }
 
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     background-color: #fdfbfc;
+    color: #3a3a3a;
 }
 
 /* headings and logo */
 h1 {
-    font-family: 'Cinzel Decorative','Lucida Sans', sans-serif;
+    font-family: 'Cinzel Decorative', 'Lucida Sans', sans-serif;
     font-weight: 900;
+    color: #b99f65;
+}
+
+#logo {
+    float: left;
+    margin-left: 20px;
+    padding: 2px;
+    font-size: 2em;
+}
+
+/* nav links */
+#home {
+    background-color: #3b3b3b;
+    padding: 5px 0;
+}
+#nav-menu {
+    clear: both;
+    display: block;
+    letter-spacing: 1px;
+    font-size: 120%;
+    font-weight: bolder;
+}
+
+#nav-menu li{
+    text-align: center;
+    list-style-type: none;
+    margin: 2px;
+}
+
+#nav-menu a{
+    text-decoration: none;
+    color: #b99f65;
 }
