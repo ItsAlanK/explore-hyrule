@@ -91,6 +91,7 @@ header {
 /* grids */
 .grid {
     display: grid;
+    /* 5% screen width columns on either side 90% middle */
     grid-template-columns: 1fr 18fr 1fr;
 }
 
