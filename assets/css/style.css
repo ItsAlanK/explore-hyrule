@@ -11,6 +11,7 @@ body {
     font-weight: 500;
     background-color: #fdfbfc;
     color: #3a3a3a;
+    font-size: 1.2em;
 }
 
 /* headings and logo and hamburger icon */
@@ -96,6 +97,7 @@ header {
 .heading, .content{
     grid-column: 2/3;
     justify-self: center;
+    margin-top: 1em;
 }
 
 /* introduction section */
