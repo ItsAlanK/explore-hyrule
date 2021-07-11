@@ -157,6 +157,10 @@ hr {
 }
 
 /* details section */
+strong {
+    color: #b99f65;
+}
+
 #purchase-details .grid {
     row-gap: 2px;
     column-gap: 2px;
