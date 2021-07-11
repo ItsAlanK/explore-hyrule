@@ -98,13 +98,18 @@ header {
 .content {
     grid-column: 2/3;
     justify-self: center;
+    align-self: center;
     margin-top: 1em;
 }
 
 /* introduction section */
+.grid p{
+    padding: 10px;
+}
+
 #circle-container {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -123,6 +128,11 @@ header {
     #menu-icon,
     #logo {
         font-size: 1.4em;
+    }
+
+    #circle-container {
+        width: 250px;
+        height: 250px;
     }
 }
 
@@ -183,6 +193,24 @@ header {
         to {
             opacity: 1
         }
+    }
+
+    /* grids */
+    .grid {
+        grid-template-columns: 10fr 60fr 20fr 10fr;
+    }
+
+    .heading{
+        grid-column: 2/4;
+        align-self: center;
+    }
+    .content {
+        grid-column: 2/3;
+    }
+
+    #circle-container {
+        grid-column: 3/4;
+        margin: 0;
     }
 }
 
