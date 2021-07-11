@@ -91,7 +91,7 @@ header {
 /* grids */
 .grid {
     display: grid;
-    grid-template-columns: 10fr 80fr 10fr;
+    grid-template-columns: 1fr 8fr 1fr;
 }
 
 .heading,
@@ -197,7 +197,7 @@ header {
 
     /* grids */
     .grid {
-        grid-template-columns: 10fr 60fr 20fr 10fr;
+        grid-template-columns: 1fr 6fr 2fr 1fr;
     }
 
     .heading{
@@ -208,6 +208,7 @@ header {
         grid-column: 2/3;
     }
 
+    /* introduction section */
     #circle-container {
         grid-column: 3/4;
         margin: 0;
@@ -232,5 +233,24 @@ header {
     .hero-image {
         width: 68%;
         border: 5px outset #b99f65;
+    }
+
+    /* grids */
+    .grid {
+        grid-template-columns: 16fr 51fr 17fr 16fr;
+    }
+
+    .heading{
+        grid-column: 2/4;
+        align-self: center;
+    }
+    .content {
+        grid-column: 2/3;
+    }
+
+    /* introduction section */
+    #circle-container {
+        grid-column: 3/4;
+        margin: 0;
     }
 }
