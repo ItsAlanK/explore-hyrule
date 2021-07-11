@@ -102,7 +102,7 @@ header {
     margin-top: 1em;
 }
 
-.heading hr{
+.heading hr {
     width: 100%;
 }
 
@@ -140,11 +140,11 @@ header {
     border-bottom: 5px outset #b99f65;
 }
 
-hr{
+hr {
     border: 2px solid #b99f65;
     width: 60%;
     margin: auto;
-    
+
 }
 
 #gameplay-parallax .content {
@@ -250,6 +250,20 @@ hr{
         grid-column: 3/4;
         margin: 0;
     }
+
+    /* gameplay section */
+    #gameplay-parallax {
+        /* splits grid into 3 main sections and 2 margin columns to retain same side margins as other sections*/
+        grid-template-columns: 1fr repeat(3, 2.66fr) 1fr;
+    }
+
+    #gameplay-parallax>.content:nth-child(odd) {
+        grid-column: 2/4;
+    }
+
+    #gameplay-parallax>.content:nth-child(even) {
+        grid-column: 3/5;
+    }
 }
 
 /* for large screens 1025px and up */
@@ -291,5 +305,19 @@ hr{
     #circle-container {
         grid-column: 3/4;
         margin: 0;
+    }
+
+    /* gameplay section */
+    #gameplay-parallax {
+        /* splits grid into 3 main sections and 2 margin columns to retain same side margins as other sections*/
+        grid-template-columns: 16fr repeat(3, 22.66fr) 16fr;
+    }
+
+    #gameplay-parallax>.content:nth-child(odd) {
+        grid-column: 2/4;
+    }
+
+    #gameplay-parallax>.content:nth-child(even) {
+        grid-column: 3/5;
     }
 }
