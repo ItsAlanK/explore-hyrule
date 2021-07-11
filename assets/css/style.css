@@ -91,7 +91,7 @@ header {
 /* grids */
 .grid {
     display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-columns: 1fr 18fr 1fr;
 }
 
 .heading,
