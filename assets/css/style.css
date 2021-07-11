@@ -237,6 +237,7 @@ header {
 
     /* grids */
     .grid {
+        /* aligns grid to width of hero image container above taking up 68% screen width by leaving 16% either side */
         grid-template-columns: 16fr 51fr 17fr 16fr;
     }
 
