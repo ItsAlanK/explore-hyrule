@@ -103,7 +103,11 @@ header {
 }
 
 /* introduction section */
-.grid p{
+#introduction {
+    margin-bottom: 30px;
+}
+
+.grid p {
     padding: 10px;
 }
 
@@ -118,6 +122,15 @@ header {
     background-size: contain;
     height: 100%;
     border-radius: 50%;
+}
+
+/* gameplay section */
+#gameplay-parallax {
+    background-image: url(../images/botw-background-image.jpg);
+    min-height: 800px;
+    /* fixes bg image in place for parallax scroll effect */
+    background-attachment: fixed;
+    background-position: center;
 }
 
 /* media queries (breakpoints chosen in line with bootstrap standards) */
@@ -200,10 +213,11 @@ header {
         grid-template-columns: 1fr 6fr 2fr 1fr;
     }
 
-    .heading{
+    .heading {
         grid-column: 2/4;
         align-self: center;
     }
+
     .content {
         grid-column: 2/3;
     }
@@ -241,10 +255,11 @@ header {
         grid-template-columns: 16fr 51fr 17fr 16fr;
     }
 
-    .heading{
+    .heading {
         grid-column: 2/4;
         align-self: center;
     }
+
     .content {
         grid-column: 2/3;
     }
