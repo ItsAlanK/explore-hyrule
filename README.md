@@ -106,3 +106,5 @@ function hideMenu() {
 * JS Function used to show and hide mobile navigation found on: [w3schools.com](https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp)
 
 * JS Function used to switch between hero images and css animation to fade each image change found on: [w3schools.com](https://www.w3schools.com/howto/howto_js_slideshow.asp)
+
+* JS Function used in scroll to top button found on: [css-tricks.com])(https://css-tricks.com/how-to-make-an-unobtrusive-scroll-to-top-button/)
