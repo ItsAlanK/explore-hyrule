@@ -39,6 +39,7 @@
                     <a href="#newsletter">Newsletter</a>
                 </li>
             </ul>
+            <i class="fas fa-chevron-circle-up" id="scroll-to-top-button" onclick="topFuction()"></i>
         </nav>
     </header>
     <!-- container holding individual hero image divs which cycle display using js-->
@@ -136,7 +137,10 @@
             </div>
             <div class="details-card" id="buy-now-card">
                 <!-- Links to purchase button on nintendo.com -->
-                <a href="https://www.nintendo.com/games/detail/the-legend-of-zelda-breath-of-the-wild-switch#purchase-buttons" target="blank_"><h2>Buy Now</h2></a>
+                <a href="https://www.nintendo.com/games/detail/the-legend-of-zelda-breath-of-the-wild-switch#purchase-buttons"
+                    target="blank_">
+                    <h2>Buy Now</h2>
+                </a>
             </div>
         </div>
     </section>
@@ -150,6 +154,20 @@
 
 
 <script>
+    /* scroll to top button function found at https://css-tricks.com/how-to-make-an-unobtrusive-scroll-to-top-button/ 
+    variable gets button by id to listen for click. on click runs function to scroll back to top of page*/
+    var scrollToTopBtn = document.getElementById("scroll-to-top-button")
+    var rootElement = document.documentElement
+
+    function scrollToTop() {
+        rootElement.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+    }
+
+    scrollToTopBtn.addEventListener("click", scrollToTop)
+
     /* mobile menu icon script repurposed from w3schools toggle hide lesson:
      https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp */
     function hideMenu() {
