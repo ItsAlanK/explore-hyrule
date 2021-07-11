@@ -87,6 +87,17 @@ header {
     margin-right: auto;
 }
 
+/* grids */
+.grid{
+    display: grid;
+    grid-template-columns: 10fr 80fr 10fr;
+}
+
+.heading, .content{
+    grid-column: 2/3;
+    justify-self: center;
+}
+
 /* introduction section */
 
 
