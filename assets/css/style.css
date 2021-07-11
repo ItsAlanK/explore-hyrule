@@ -154,8 +154,8 @@ header {
     }
 }
 
-/* for large screens 992px and up */
-@media screen and (min-width: 992px) {
+/* for large screens 1025px and up */
+@media screen and (min-width: 1025px) {
     #logo {
         font-size: 2.2em;
     }
