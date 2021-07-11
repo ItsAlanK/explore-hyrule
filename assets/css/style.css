@@ -39,7 +39,7 @@ h2 {
 #logo,
 #menu-icon {
     padding: 2px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 75px;
 }
 
@@ -122,7 +122,7 @@ header {
     /* adjust font size of logo as screen size increases */
     #menu-icon,
     #logo {
-        font-size: 1.8em;
+        font-size: 1.4em;
     }
 }
 
