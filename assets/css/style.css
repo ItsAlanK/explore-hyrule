@@ -103,16 +103,16 @@ header {
 
 /* introduction section */
 #circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
 }
 
-#circle-portrait{
+#circle-portrait {
     background: url(../images/link-portrait.jpg) no-repeat center center;
+    background-size: contain;
     height: 100%;
-    border-radius: 50%;;
+    border-radius: 50%;
 }
 
 /* media queries (breakpoints chosen in line with bootstrap standards) */
