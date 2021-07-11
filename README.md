@@ -36,6 +36,17 @@ The fonts and overall design are also influenced by the gameplay UI and guide bo
     * On mobile screen sizes the navigation links are hidden to save screen space and can be revealed with a hamburger icon in the top right corner of the page
     * This allows the user to jump to lower sections of the page if the do not wish to scroll through all of the content
 
+* Hero Image Slideshow
+    * Upon page load to user is greeted with a series of epic title images for the game giving them a clear idea of the game title and aesthetics.
+    * The hero image automatically cycles through images to show some of the different aspects of the game.
+
+* Introduction Section
+    * This section gives a brief overview of the game and informs the user as to what console it is available on.
+    * This section also features a portrait of the main protagonist of the game, Link.
+
+* Gameplay Section
+    * This section features a wide parallax scrolling image of the landscape of the game in the background. This image breaks the established boundaries of the desktop site in order to convey the sprawling and innovative nature of the game.
+
 
 ### Potential Future Features ###
 
