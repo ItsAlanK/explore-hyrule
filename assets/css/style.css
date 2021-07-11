@@ -181,6 +181,29 @@ strong {
     background-color: #3a3a3a;
 }
 
+#buy-now-card {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #b99f65;
+    grid-column: 2/3;
+    margin: 10px 0;
+    border-radius: 25px;
+}
+
+#buy-now-card:hover{
+    box-shadow: 0 0 20px #2b2b2b;
+    font-size: 120%;
+}
+
+#buy-now-card h2 {
+    color: #fdfbfc;
+}
+
+#buy-now-card a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
 /* media queries (breakpoints chosen in line with bootstrap standards) */
 /* for screens above 370px */
 @media screen and (min-width: 370px) {
@@ -310,6 +333,10 @@ strong {
         grid-column: 1/5;
         padding: 5px 10vw;
     }
+
+    #buy-now-card{
+        grid-column: 2/4;
+    }
 }
 
 /* for large screens 1025px and up */
@@ -379,5 +406,9 @@ strong {
     #details-card-3 {
         padding-left: 16vw;
         padding-right: 16vw;
+    }
+
+    #buy-now-card{
+        margin: 10px 10vw;
     }
 }
