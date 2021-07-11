@@ -131,6 +131,9 @@ header {
     /* fixes bg image in place for parallax scroll effect */
     background-attachment: fixed;
     background-position: center;
+
+    border-top: 5px outset #b99f65;
+    border-bottom: 5px outset #b99f65;
 }
 
 /* media queries (breakpoints chosen in line with bootstrap standards) */
