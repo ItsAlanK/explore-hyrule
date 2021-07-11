@@ -102,6 +102,10 @@ header {
     margin-top: 1em;
 }
 
+.heading hr{
+    width: 100%;
+}
+
 /* introduction section */
 #introduction {
     margin-bottom: 30px;
