@@ -22,7 +22,7 @@ h2 {
     color: #b99f65;
 }
 
-h2{
+h2 {
     font-size: 1.2em;
 }
 
@@ -89,19 +89,31 @@ header {
 }
 
 /* grids */
-.grid{
+.grid {
     display: grid;
     grid-template-columns: 10fr 80fr 10fr;
 }
 
-.heading, .content{
+.heading,
+.content {
     grid-column: 2/3;
     justify-self: center;
     margin-top: 1em;
 }
 
 /* introduction section */
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 50%;
+}
 
+#circle-portrait{
+    background: url(../images/link-portrait.jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;;
+}
 
 /* media queries (breakpoints chosen in line with bootstrap standards) */
 /* for screens above 370px */
