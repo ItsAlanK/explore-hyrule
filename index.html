@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A promotional page for The Legend of Zelda: Breath of the Wild for the Nintendo Switch">
+    <meta name="description"
+        content="A promotional page for The Legend of Zelda: Breath of the Wild for the Nintendo Switch">
     <meta name="keywords" content="Nintendo, Legend of Zelda, Breath of the Wild, video game, lore, promotion">
 
     <title>Explore Hyrule</title>
@@ -43,29 +44,54 @@
     <!-- container holding individual hero image divs which cycle display using js-->
     <section id="hero-image-container">
         <div class="slideshow fade">
-            <img src="assets/images/botw-title-image-2.jpg" class="hero-image" alt="Legend of Zelda: Breath of the Wild title card image">
+            <img src="assets/images/botw-title-image-2.jpg" class="hero-image"
+                alt="Legend of Zelda: Breath of the Wild title card image">
         </div>
         <div class="slideshow fade">
-            <img src="assets/images/botw-title-image-1.jpg" class="hero-image" alt="Legend of Zelda: Breath of the Wild title card image">
+            <img src="assets/images/botw-title-image-1.jpg" class="hero-image"
+                alt="Legend of Zelda: Breath of the Wild title card image">
         </div>
         <div class="slideshow fade">
-            <img src="assets/images/botw-title-image-3.jpg" class="hero-image" alt="Legend of Zelda: Breath of the Wild title card image">
+            <img src="assets/images/botw-title-image-3.jpg" class="hero-image"
+                alt="Legend of Zelda: Breath of the Wild title card image">
         </div>
     </section>
     <section class="grid" id="introduction">
         <h2 class="heading">Breath of the Wild</h2>
         <hr>
-        <p class="content">Embark on a new quest. Step into a world of discovery, exploration, and adventure in The Legend of Zelda: Breath of the Wild, 
-            a boundary-breaking new game in the acclaimed series. Discover what has become of the kingdom of Hyrule in this stunning Open-Air 
-            Adventure. Now on Nintendo Switch, your journey is freer and more open than ever. Take your system anywhere, and adventure
-             as Link any way you like.</p>
+        <p class="content">Embark on a new quest. Step into a world of discovery, exploration, and adventure in The
+            Legend of Zelda: Breath of the Wild,
+            a boundary-breaking new game in the acclaimed series. Discover what has become of the kingdom of Hyrule in
+            this stunning Open-Air
+            Adventure. Now on Nintendo Switch, your journey is freer and more open than ever. Take your system anywhere,
+            and adventure
+            as Link any way you like.</p>
         <div class="content" id="circle-container">
             <div id="circle-portrait"></div>
         </div>
     </section>
     <section id="gameplay">
         <div class="grid" id="gameplay-parallax">
-
+            <div class="content">
+                <h3>A wide Open World</h3>
+                <p></p>
+            </div>
+            <div class="content">
+                <h3>Groundbreaking Physics System</h3>
+                <p></p>
+            </div>
+            <div class="content">
+                <h3>Hundreds Of Quests & Sidequests</h3>
+                <p></p>
+            </div>
+            <div class="content">
+                <h3>Hunt & Gather To Survive</h3>
+                <p></p>
+            </div>
+            <div class="content">
+                <h3>Save The World</h3>
+                <p></p>
+            </div>
         </div>
     </section>
     <section id="purchase-details">
@@ -99,15 +125,17 @@
     showSlides();
 
     function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("slideshow");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 4500);
+        var i;
+        var slides = document.getElementsByClassName("slideshow");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 4500);
     }
 </script>
 
