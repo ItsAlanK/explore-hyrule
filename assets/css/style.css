@@ -136,8 +136,20 @@ header {
     border-bottom: 5px outset #b99f65;
 }
 
-.content h3, .content p{
+hr{
+    border: 2px solid #b99f65;
+    width: 60%;
+    margin: auto;
+    
+}
+
+#gameplay-parallax .content {
+    color: #fdfbfc;
+    border-radius: 25px;
     text-align: center;
+    background-color: #3a3a3a70;
+    padding: 5px;
+    margin: 1em 0;
 }
 
 /* media queries (breakpoints chosen in line with bootstrap standards) */
