@@ -136,7 +136,6 @@ header {
     /* fixes bg image in place for parallax scroll effect */
     background-attachment: fixed;
     background-position: center;
-
     border-top: 5px outset #b99f65;
     border-bottom: 5px outset #b99f65;
 }
@@ -158,6 +157,11 @@ hr {
 }
 
 /* details section */
+#purchase-details .grid {
+    row-gap: 2px;
+    column-gap: 2px;
+}
+
 .details-card {
     background-color: #2b2b2b;
     color: #fdfbfc;
