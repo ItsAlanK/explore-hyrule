@@ -117,8 +117,8 @@ header {
     margin-top: 1em;
 }
 
-.heading hr {
-    width: 100%;
+#underline{
+    grid-column: 2/3;
 }
 
 /* introduction section */
@@ -392,6 +392,11 @@ footer {
     #circle-container {
         grid-column: 3/4;
         margin: 0;
+    }
+
+    #underline{
+        grid-column: 2/4;
+        width: 50%;
     }
 
     /* gameplay section */
