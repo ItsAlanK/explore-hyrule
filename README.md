@@ -9,7 +9,7 @@ The site will serve as a promotional piece to entice potential customers who are
 ## Design Choices ##
 
 ### Layout ###
-The site is designed as a single continuous page, rather than dividing each section up as individual pages, allowing the user to scroll through each section without interuption. This is done as the purpose of the page is to guide users through the content revealing it in order rather than leaving it to the users. The user still has the ability to navigate through the sections or return the the beginning at all times using the navigation buttons.
+The site is designed as a single continuous page, rather than dividing each section up as individual pages, allowing the user to scroll through each section without interuption. This is done as the purpose of the page is to guide users through the content revealing it in order rather than leaving it up to the users to jump. The user however, still does has the ability to navigate through the sections in their own way should they desire or return the the beginning at all times using the navigation buttons.
 
 ### Wireframes ###
 Following are links to mobile and desktop wireframes used to design the layout of the website. Tablet sizes will retain most of the layout of the desktop version with minor scaling changes to account for screen sizes.
@@ -18,7 +18,7 @@ Following are links to mobile and desktop wireframes used to design the layout o
 
 - [Desktop Wireframe](support-docs/wireframes/desktop-wireframe.png)
 
-Design remained true to wireframes throughout expect in the case of larger screens in which the hero image at the head of the page shrinks down. This was done both to establish as boundary from the sites with to then be broken by the parallax image later and also in order to ensure the content below it is visible above the page fold to encourage users to scroll.
+Design remained true to wireframes throughout except in the case of larger screens in which the hero image at the head of the page shrinks down to less that 100% screen width. This was done both to establish a boundary for the site's content to then be broken by the parallax image later and also in order to ensure the content below it is visible above the page fold to encourage users to scroll.
 
 ### Colors ###
 Colors were chosen to fit in with the game content and its external media such as physical collectors' guides.
@@ -30,7 +30,7 @@ Colors were lifted from sample page text and screenshots of actual gameplay to c
 ![Color palette](support-docs/images/color-palette.png "Color palette created from sample images")
 *created using [coolors.co](https://coolors.co/)*
 
-While not all colors from the palette were used in the sites design they are visible in the images shown and having this pallette proved useful in visualizing how colours would interact with each other.
+While not all colors from the palette were used in the sites design they are visible in the images shown on the site and having this pallette proved useful in visualizing how colours would interact with each other.
 
 ### Fonts ##
 The fonts and overall design are also influenced by the gameplay UI and guide book design in order to make the site fit in with already existing branding. Both fonts are sourced from [Google Fonts](https://fonts.google.com/specimen/Cinzel+Decorative?preview.text=Explore%20Hyrule&preview.text_type=custom&category=Display#standard-styles)
