@@ -87,6 +87,8 @@ function hideMenu() {
 
 * Solution - _Temporary Solution: Moved fade animation css to media query so it does not effect mobile nav menu_
 
+* Bug - Parallax scrolling background moves slightly when testing on mobile device causing white bar at bottom of section sometimes. Does not appear on desktop when inspecting at smaller widths, only on physical mobile device.
+
 ## Deployment ##
 
 ## Credits ##
