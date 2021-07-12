@@ -238,8 +238,21 @@ strong {
 }
 
 /* removes outline on input fields when selected which is default on chrome */
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
     outline: none;
+}
+
+.submit-btn{
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: 5px outset #b99f65;
+    border-radius: 8px;
+    background-color: #fdfbfc;
+}
+
+.submit-btn:hover{
+    box-shadow: 0 0 8px #3a3a3a;
 }
 
 /* media queries (breakpoints chosen in line with bootstrap standards) */
@@ -377,6 +390,10 @@ textarea:focus, input:focus{
     }
 
     /* newsletter form */
+    #newsletter {
+        margin: 50px 0;
+    }
+
     #newsletter .content {
         grid-column: 2/4;
     }
