@@ -79,7 +79,7 @@ header {
     border-right: 3px solid #b99f65;
 }
 
-#scroll-to-top-button{
+#scroll-to-top-button {
     font-size: 2.2em;
     position: fixed;
     bottom: 20px;
@@ -196,10 +196,10 @@ strong {
     background-color: #b99f65;
     grid-column: 2/3;
     margin: 10px 0;
-    border-radius: 25px; 
+    border-radius: 25px;
 }
 
-#buy-now-card:hover{
+#buy-now-card:hover {
     box-shadow: 0 0 20px #2b2b2b;
     font-size: 120%;
 }
@@ -211,6 +211,11 @@ strong {
 #buy-now-card a {
     text-decoration: none;
     font-size: 1.5em;
+}
+
+/* newsletter section */
+#newsletter h2{
+    text-align: center;
 }
 
 /* media queries (breakpoints chosen in line with bootstrap standards) */
@@ -343,7 +348,7 @@ strong {
         padding: 5px 10vw;
     }
 
-    #buy-now-card{
+    #buy-now-card {
         grid-column: 2/4;
     }
 }
@@ -417,7 +422,7 @@ strong {
         padding-right: 16vw;
     }
 
-    #buy-now-card{
+    #buy-now-card {
         margin: 10px 10vw;
     }
 }
