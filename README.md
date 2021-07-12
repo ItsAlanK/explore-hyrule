@@ -62,6 +62,14 @@ The fonts and overall design are also influenced by the gameplay UI and guide bo
     * In this section several cards provide information about the various selling points and features of the game and give the user a stronger idea of the type of experience they can expect from it
     * These detail cards are responsive and vary in width and position depending of screen size
 
+![Details Section](support-docs/screenshots/details-screenshot.png "Details section with landscape background")
+
+* Purchase Details Section
+    * This section contains cards with information about the games developers, playable systems and game information
+    * These cards rearrange and stack in different grid formations depending on screensize for optimal space use.
+    * It also contains a prominent buy now button which links in a new tab to the buy button on the nintendo official store page of the game. This allows players to have move directly to purchase from discovery of this page if they desire without extra steps.
+
+![Purchase Section](support-docs/screenshots/purchase-section-screenshot.png "Game information and buy now button")
 
 ### Potential Future Features ###
 
