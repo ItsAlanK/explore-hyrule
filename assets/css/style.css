@@ -214,8 +214,32 @@ strong {
 }
 
 /* newsletter section */
-#newsletter h2{
+#newsletter h2 {
     text-align: center;
+}
+
+.newsletter-form {
+    max-width: 300px;
+}
+
+.text-input,
+.date-input {
+    border: 2px solid #3a3a3a70;
+    border-radius: 8px;
+    font-size: .8em;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.text-input:hover,
+.date-input:hover {
+    border: 2px solid #8fb7d9;
+    border-radius: 8px;
+}
+
+/* removes outline on input fields when selected which is default on chrome */
+textarea:focus, input:focus{
+    outline: none;
 }
 
 /* media queries (breakpoints chosen in line with bootstrap standards) */
@@ -350,6 +374,22 @@ strong {
 
     #buy-now-card {
         grid-column: 2/4;
+    }
+
+    /* newsletter form */
+    #newsletter .content {
+        grid-column: 2/4;
+    }
+
+    .newsletter-form {
+        max-width: 500px;
+    }
+
+    .text-input,
+    .date-input {
+        border: 2px solid #3a3a3a70;
+        border-radius: 8px;
+        margin: 15px 10px;
     }
 }
 

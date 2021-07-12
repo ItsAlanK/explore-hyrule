@@ -149,17 +149,22 @@
             <hr>
         </h2>
         <div class="content">
-            <label>First Name</label>
-            <input type="text" name="first-name" required>
-            <label>Last Name</label>
-            <input type="text" name="last-name" required>
-            <label>Email Address</label>
-            <input type="email" name="email-address" required>
-            <label>Date of Birth</label>
-            <input type="date" name="dob" required>
-            <input type="submit" value="Sign Up!">
+            <form class="newsletter-form" method="POST" action="#">
+                <label for="fname"><strong>First Name:</strong></label>
+                <input class="text-input" id="fname" type="text" name="first-name" required>
+                <br>
+                <label for="lname"><strong>Last Name:</strong></label>
+                <input class="text-input" id="lname" type="text" name="last-name" required>
+                <br>
+                <label for="email"><strong>Email Address:</strong></label>
+                <input class="text-input" id="email" type="email" name="email-address" required>
+                <br>
+                <label for="dob"><strong>Date of Birth:</strong></label>
+                <input class="date-input" id="dob" type="date" name="dob" required>
+                <br>
+                <input type="submit" value="Sign Up!">
+            </form>
         </div>
-
     </section>
     <footer>
         social links
