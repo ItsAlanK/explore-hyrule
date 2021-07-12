@@ -57,7 +57,9 @@ The fonts and overall design are also influenced by the gameplay UI and guide bo
 
 Throughout development the site was shared with several friends and colleagues with little to no knowledge of web development in order to search for bugs and any issues related to layout, navigation or overall aesthetics. Their feedback was taken on an ongoing basis and adjustments were made to improve their overall experience. 
 
-This feedback comprised mainly of visual issues surrounding varying device sizes requiring the scale of certain items such as the navbar and hero slideshow to be altered to better fit their device and provide a clear view of the content.
+This feedback comprised mainly of visual issues surrounding varying device sizes requiring the scale of certain items such as the navbar and hero slideshow to be altered to better fit their device and provide a clear view of the content. I ensured that some of my testers were using apple and some android devices and that some used phones while others also used tablets and desktops in order to ensure all forms were covered in my design.
+
+While I worked on this project through Google Chrome I also loaded the page at various intervals on Mozilla Firefox and Microsoft Edge to ensure there was not major browser specific issues.
 
 ### Bugs ###
 * Bug - Menu icon in mobile header required 2 clicks to reveal navigation menu on page load
