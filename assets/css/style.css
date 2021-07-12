@@ -89,6 +89,10 @@ header {
     cursor: pointer;
 }
 
+#scroll-to-top-button:hover {
+    font-size: 2.5em;
+}
+
 /* hero image slideshow */
 .hero-image {
     display: block;
