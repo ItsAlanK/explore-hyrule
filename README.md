@@ -79,8 +79,10 @@ The fonts and overall design are also influenced by the gameplay UI and guide bo
 ![Newsletter Signup Section](support-docs/screenshots/form-screenshot.png "Game information and buy now button")
 
 * Footer
-    * The page footer contains links to various social media accounts associated with the game's marketing as is expected on most modern sites
-    * The footer also attributes the page creating to myself and acknowledges Nintendo as the owner of intellectual property promoted on the site
+    * The page footer contains links to various social media accounts associated with the game's marketing as is expected on most modern sites.
+    * The footer also attributes the page creating to myself and acknowledges Nintendo as the owner of intellectual property promoted on the site.
+
+![Footer](support-docs/screenshots/footer-screenshot.png "Site footer with social media logos and copyright information")
 
 ### Potential Future Features ###
 
