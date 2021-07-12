@@ -142,7 +142,8 @@ header {
 /* gameplay section */
 #gameplay-parallax {
     background-image: url(../images/botw-background-image.jpg);
-    min-height: 1000px;
+    background-repeat: no-repeat;
+    min-height: 1500px;
     /* fixes bg image in place for parallax scroll effect */
     background-attachment: fixed;
     background-position: center;
