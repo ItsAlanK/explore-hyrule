@@ -1,10 +1,11 @@
 # Explore Hyrule #
-## Introduction ##
+
 Explore Hyrule is a website created to promote *The Legend of Zelda: Breath of the Wild* video game for the Nintendo Switch. The website is aimed at displaying the features of the game and to inform users about some of the lore and gameplay they can expect from the product.
 
 The site will serve as a promotional piece to entice potential customers who are interested in the game to purchase the title and provide a path directly from site discovery to purchase.
 
 ## Design Choices ##
+---
 ### Layout ###
 The site is designed as a single continuous page, rather than dividing each section up as individual pages, allowing the user to scroll through each section without interuption. This is done as the purpose of the page is to guide users through the content revealing it in order rather than leaving it to the users. The user still has the ability to navigate through the sections or return the the beginning at all times using the navigation buttons.
 
@@ -29,7 +30,7 @@ Colors were lifted from sample page text and screenshots of actual gameplay to c
 The fonts and overall design are also influenced by the gameplay UI and guide book design in order to make the site fit in with already existing branding. Both fonts are sourced from [Google Fonts](https://fonts.google.com/specimen/Cinzel+Decorative?preview.text=Explore%20Hyrule&preview.text_type=custom&category=Display#standard-styles)
 
 ## Features ##
-
+---
 ### Existing Features ###
 * Responsive Navigation Bar
     * At the top of the site there is a fully responsive navigation bar, functional down to screen widths of 320px, which links to the different sections within the page using internal links
@@ -50,11 +51,15 @@ The fonts and overall design are also influenced by the gameplay UI and guide bo
 
 ### Potential Future Features ###
 
-* Hero image slideshow could be replaced by promotional video if desired
+* Hero image slideshow could be replaced by promotional video if desired.
 
 ## Testing ##
+---
+Throughout development the site was shared with several friends and colleagues with little to no knowledge of web development in order to search for bugs and any issues related to layout, navigation or overall aesthetics. Their feedback was taken on an ongoing basis and adjustments were made to improve their overall experience. 
 
-## Bugs ##
+This feedback comprised mainly of visual issues surrounding varying device sizes requiring the scale of certain items such as the navbar and hero slideshow to be altered to better fit their device and provide a clear view of the content.
+
+### Bugs ###
 * Bug - Menu icon in mobile header required 2 clicks to reveal navigation menu on page load
 
 * Solution - Reverse Javascript function if statement is checking for display style block first instead of none
@@ -90,8 +95,10 @@ function hideMenu() {
 * Bug - Parallax scrolling background moves slightly when testing on mobile device causing white bar at bottom of section sometimes. Does not appear on desktop when inspecting at smaller widths, only on physical mobile device.
 
 ## Deployment ##
+---
 
 ## Credits ##
+---
 
 ### Design ###
 
