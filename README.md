@@ -90,7 +90,7 @@ The fonts and overall design are also influenced by the gameplay UI and guide bo
     * To improve users' ability to navigate the site the is a persistant scroll to top button located in the bottom right corner of the screen. This allows the user to return to the top of the page and main navigation at any time.
     * This button has an on hover effect to give users feedback and let them know it is a clickable item.
 
-![Footer](support-docs/screenshots/scroll-button-screenshot.png "Site footer with social media logos and copyright information")
+        ![Scroll button](support-docs/screenshots/scroll-button-screenshot.png "Arrow icon used as scroll to top button")
 
 ### Potential Future Features ###
 
