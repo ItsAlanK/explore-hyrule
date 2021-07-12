@@ -189,3 +189,5 @@ A big thanks to my Code Institute mentor [Simen Daehlin](https://dehlin.dev/#hom
 * JS Function and used to switch between hero images and CSS animation to fade each image change found on: [w3schools.com](https://www.w3schools.com/howto/howto_js_slideshow.asp)
 
 * JS Function used in scroll to top button found on: [css-tricks.com](https://css-tricks.com/how-to-make-an-unobtrusive-scroll-to-top-button/)
+
+* [Code Institute GitPod Template](https://github.com/Code-Institute-Org/gitpod-full-template) tools used to develop this project
