@@ -117,12 +117,18 @@ header {
     margin-top: 1em;
 }
 
+hr {
+    border: 2px solid #b99f65;
+    width: 60%;
+    margin: auto;
+}
+
 #underline{
     grid-column: 2/3;
 }
 
 /* introduction section */
-#introduction {
+.introduction {
     margin-bottom: 30px;
 }
 
@@ -154,13 +160,6 @@ header {
     background-position: center;
     border-top: 5px outset #b99f65;
     border-bottom: 5px outset #b99f65;
-}
-
-hr {
-    border: 2px solid #b99f65;
-    width: 60%;
-    margin: auto;
-
 }
 
 #gameplay-parallax .content {
@@ -394,7 +393,7 @@ footer {
         margin: 0;
     }
 
-    #underline{
+    .underline{
         grid-column: 2/4;
         width: 50%;
     }
