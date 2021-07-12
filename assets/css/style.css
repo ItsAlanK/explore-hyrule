@@ -145,6 +145,7 @@ header {
 
 /* gameplay section */
 #gameplay-parallax {
+    /* image source https://switchrpg.com/articles/zelda-breath-of-the-wild-scenic-desktop-wallpaper-collection/ */
     background-image: url(../images/botw-background-image.jpg);
     background-repeat: no-repeat;
     min-height: 1500px;
