@@ -4,6 +4,8 @@ Explore Hyrule is a website created to promote *The Legend of Zelda: Breath of t
 
 The site will serve as a promotional piece to entice potential customers who are interested in the game to purchase the title and provide a path directly from site discovery to purchase.
 
+![Multiscreen Image](support-docs/images/responsive-image.png "View of the website on various devices")
+
 ## Design Choices ##
 
 ### Layout ###
