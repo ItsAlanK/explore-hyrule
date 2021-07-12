@@ -96,6 +96,8 @@ The fonts and overall design are also influenced by the gameplay UI and guide bo
 
 * Hero image slideshow could be replaced by promotional video if desired.
 
+* Character introduction section to familiarize users with some of the characters of the game and show off their designs.
+
 ## Testing ##
 
 Throughout development the site was shared with several friends and colleagues with little to no knowledge of web development in order to search for bugs and any issues related to layout, navigation or overall aesthetics. Their feedback was taken on an ongoing basis and adjustments were made to improve their overall experience. 
