@@ -125,10 +125,6 @@ hr {
 }
 
 /* introduction section */
-.introduction {
-    margin-bottom: 30px;
-}
-
 .grid p {
     padding: 10px;
 }
@@ -137,6 +133,7 @@ hr {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    margin-bottom: 50px;
 }
 
 #circle-portrait {
@@ -387,7 +384,7 @@ footer {
     /* introduction section */
     #circle-container {
         grid-column: 3/4;
-        margin: 0;
+        margin-bottom: 50px;
     }
 
     .underline {
