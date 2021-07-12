@@ -37,9 +37,9 @@ The fonts and overall design are also influenced by the gameplay UI and guide bo
 
 ### Existing Features ###
 * Responsive Navigation Bar
-    * At the top of the site there is a fully responsive navigation bar, functional down to screen widths of 320px, which links to the different sections within the page using internal links
-    * On mobile screen sizes the navigation links are hidden to save screen space and can be revealed with a hamburger icon in the top right corner of the page
-    * This allows the user to jump to lower sections of the page if the do not wish to scroll through all of the content
+    * At the top of the site there is a fully responsive navigation bar, functional down to screen widths of 320px, which links to the different sections within the page using internal links.
+    * On mobile screen sizes the navigation links are hidden to save screen space and can be revealed with a hamburger icon in the top right corner of the page.
+    * This allows the user to jump to lower sections of the page if the do not wish to scroll through all of the content.
 
 ![Desktop Header](support-docs/screenshots/header-desktop.png "Desktop version of header navigation")
 
@@ -59,17 +59,28 @@ The fonts and overall design are also influenced by the gameplay UI and guide bo
 
 * Gameplay Section
     * This section features a wide parallax scrolling image of the landscape of the game in the background. This image breaks the established boundaries of the desktop site in order to convey the sprawling and innovative nature of the game.
-    * In this section several cards provide information about the various selling points and features of the game and give the user a stronger idea of the type of experience they can expect from it
-    * These detail cards are responsive and vary in width and position depending of screen size
+    * In this section several cards provide information about the various selling points and features of the game and give the user a stronger idea of the type of experience they can expect from it.
+    * These detail cards are responsive and vary in width and position depending of screen size.
 
 ![Details Section](support-docs/screenshots/details-screenshot.png "Details section with landscape background")
 
 * Purchase Details Section
-    * This section contains cards with information about the games developers, playable systems and game information
+    * This section contains cards with information about the games developers, playable systems and game information.
     * These cards rearrange and stack in different grid formations depending on screensize for optimal space use.
     * It also contains a prominent buy now button which links in a new tab to the buy button on the nintendo official store page of the game. This allows players to have move directly to purchase from discovery of this page if they desire without extra steps.
 
 ![Purchase Section](support-docs/screenshots/purchase-section-screenshot.png "Game information and buy now button")
+
+* Newsletter Signup
+    * The final major section of the site is a sign up form which allows users to sign up to a newsletter if the wish to receive updates and news regarding the video game.
+    * This form only collects basic information name and email along with an age as the game is rated for everyone above the age of 10. This extra info can also be valuable for analytics data to learn about target demographics of the page for future updates.
+    * The input fields and submit button respond to mouse hover to provide feedback to the user that the fields are to be interacted with and all fields are required to submit the form.
+
+![Newsletter Signup Section](support-docs/screenshots/form-screenshot.png "Game information and buy now button")
+
+* Footer
+    * The page footer contains links to various social media accounts associated with the game's marketing as is expected on most modern sites
+    * The footer also attributes the page creating to myself and acknowledges Nintendo as the owner of intellectual property promoted on the site
 
 ### Potential Future Features ###
 

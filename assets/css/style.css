@@ -285,6 +285,15 @@ footer {
     padding: 0 0;
 }
 
+.copyright a{
+    text-decoration: none;
+    color: #b99f65;
+}
+
+.copyright a:hover{
+    color: #8fb7d9
+}
+
 /* media queries (breakpoints chosen in line with bootstrap standards) */
 /* for screens above 370px */
 @media screen and (min-width: 370px) {
