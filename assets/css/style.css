@@ -121,9 +121,6 @@ hr {
     border: 2px solid #b99f65;
     width: 60%;
     margin: auto;
-}
-
-#underline{
     grid-column: 2/3;
 }
 
@@ -393,7 +390,7 @@ footer {
         margin: 0;
     }
 
-    .underline{
+    .underline {
         grid-column: 2/4;
         width: 50%;
     }
