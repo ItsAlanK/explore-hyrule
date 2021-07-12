@@ -153,6 +153,8 @@ function hideMenu() {
 
 * Bug - Parallax scrolling background moves slightly when testing on mobile device causing white bar at bottom of section sometimes. Does not appear on desktop when inspecting at smaller widths, only on physical mobile device.
 
+* Solution - min-height of bg image increased to accomodate longer scrolling caused by smaller screen width pushing content down.
+
 ## Deployment ##
 The site was deployed to GitHub pages. The live site can be found at: [https://itsalank.github.io/explore-hyrule/index.html](https://itsalank.github.io/explore-hyrule/index.html)
 
