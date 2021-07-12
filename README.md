@@ -142,14 +142,27 @@ function hideMenu() {
         }
     }
 ```
+
+---
+
 * Bug - Fade animation on Hero image transition causes navigation menu on mobile version to fade as well
 
 * Solution - _Temporary Solution: Moved fade animation css to media query so it does not effect mobile nav menu_
 
+---
+
 * Bug - Parallax scrolling background moves slightly when testing on mobile device causing white bar at bottom of section sometimes. Does not appear on desktop when inspecting at smaller widths, only on physical mobile device.
 
 ## Deployment ##
+The site was deployed to GitHub pages. The live site can be found at: [https://itsalank.github.io/explore-hyrule/index.html](https://itsalank.github.io/explore-hyrule/index.html)
 
+* The process required to deploy the site are:
+    * From the site's repository on GitHub, navigate to the settings via the link found in the ribbon menu below the repo name.
+    * Select the "pages" section in the sidebar menu to the left of the screen.
+    * In the "Source" section, select the branch you wish to use as the source of the site if you have multiple branches/versions. Otherwise select the main branch.
+    * Select the root folder and click save.
+    * Deployment may take a few seconds or minutes, after which navigate back to the pages section and find the link to the live site highlighted in green.
+    * _Alternatively once the page site is deployed on pages you can find a link to the site via the enviroments section to the right of the main repository page._
 
 ## Credits ##
 
