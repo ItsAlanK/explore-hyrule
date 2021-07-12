@@ -104,6 +104,15 @@ This feedback comprised mainly of visual issues surrounding varying device sizes
 
 While I worked on this project through Google Chrome I also loaded the page at various intervals on Mozilla Firefox and Microsoft Edge to ensure there was not major browser specific issues.
 
+### Validator Testing ###
+* HTML
+    * No errors present when passing through [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fitsalank.github.io%2Fexplore-hyrule%2Findex.html)
+    * Some warnings are present however they relate to intentionally choices
+
+* CSS
+    * No errors present when passing through [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fitsalank.github.io%2Fexplore-hyrule%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * Some warnings present relating to webkit extensions required for animation in certain browsers
+
 ### Bugs ###
 * Bug - Menu icon in mobile header required 2 clicks to reveal navigation menu on page load
 
