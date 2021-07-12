@@ -261,6 +261,17 @@ input:focus {
     cursor: pointer;
 }
 
+/* footer */
+footer{
+    background-color: #2b2b2b;
+    color: #fdfbfc;
+}
+
+.socials li{
+    display: inline;
+    list-style: none;
+}
+
 /* media queries (breakpoints chosen in line with bootstrap standards) */
 /* for screens above 370px */
 @media screen and (min-width: 370px) {
