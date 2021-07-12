@@ -39,7 +39,8 @@
                     <a href="#newsletter">Newsletter</a>
                 </li>
             </ul>
-            <i class="fas fa-chevron-circle-up" id="scroll-to-top-button" onclick="topFuction()" aria-label="Scroll back to top"></i>
+            <i class="fas fa-chevron-circle-up" id="scroll-to-top-button" onclick="topFuction()"
+                aria-label="Scroll back to top"></i>
         </nav>
     </header>
     <!-- container holding individual hero image divs which cycle display using js-->
@@ -138,7 +139,8 @@
             <div class="details-card" id="buy-now-card">
                 <!-- Links to purchase button on nintendo.com -->
                 <a href="https://www.nintendo.com/games/detail/the-legend-of-zelda-breath-of-the-wild-switch#purchase-buttons"
-                    target="blank_" rel="noopener" aria-label="Buy Breath of the Wild now (Links to Nintendo offical store)">
+                    target="blank_" rel="noopener"
+                    aria-label="Buy Breath of the Wild now (Links to Nintendo offical store)">
                     <h2>Buy Now</h2>
                 </a>
             </div>
@@ -169,71 +171,29 @@
     <footer class="grid">
         <ul class="socials content">
             <li>
-                <a href="https://www.facebook.com/NintendoUK" target="blank_" rel="noopener" 
-                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.facebook.com/NintendoUK" target="blank_" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com/NintendoAmerica" target="blank_" rel="noopener" 
-                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></i></a>
+                <a href="https://twitter.com/NintendoAmerica" target="blank_" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i
+                        class="fab fa-twitter-square"></i></i></a>
             </li>
             <li>
-                <a href="https://www.youtube.com/user/Nintendo" target="blank_" rel="noopener" 
-                aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube"></i></i></a>
+                <a href="https://www.youtube.com/user/Nintendo" target="blank_" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube"></i></i></a>
             </li>
         </ul>
         <div class="copyright content">
-            <p>Site designed by <a href="https://github.com/ItsAlanK" target="blank_" rel="noopener" aria-label="Visit my GitHub Page (opens in a new tab)">Alan Kinsella.</a></p>
+            <p>Site designed by <a href="https://github.com/ItsAlanK" target="blank_" rel="noopener"
+                    aria-label="Visit my GitHub Page (opens in a new tab)">Alan Kinsella.</a></p>
             <p>Content owned by &copy;Nintendo</p>
         </div>
     </footer>
 </body>
 
-<script>
-    /* scroll to top button function found at https://css-tricks.com/how-to-make-an-unobtrusive-scroll-to-top-button/ 
-    variable gets button by id to listen for click. on click runs function to scroll back to top of page*/
-    var scrollToTopBtn = document.getElementById("scroll-to-top-button")
-    var rootElement = document.documentElement
-
-    function scrollToTop() {
-        rootElement.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        })
-    }
-
-    scrollToTopBtn.addEventListener("click", scrollToTop)
-
-    /* mobile menu icon script repurposed from w3schools toggle hide lesson:
-     https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp */
-    function hideMenu() {
-        var x = document.getElementById("nav-menu");
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        } else {
-            x.style.display = "block";
-        }
-    }
-
-    /* code from w3schools js slideshow lesson https://www.w3schools.com/howto/howto_js_slideshow.asp
-    script assigns index value to class and adds to the counter every 4.5 seconds toggling the display 
-    of the next image from none to block to none again as it goes*/
-    var slideIndex = 0;
-    showSlides();
-
-    function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("slideshow");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {
-            slideIndex = 1
-        }
-        slides[slideIndex - 1].style.display = "block";
-        setTimeout(showSlides, 4500);
-    }
-</script>
+<!-- javascript for  mobile nav menu, hero image slideshow & scroll to top button -->
+<script src="assets/scripts/main.js"></script>
 
 <!-- font awesome script -->
 <script src="https://kit.fontawesome.com/50309a1295.js" crossorigin="anonymous"></script>
