@@ -166,6 +166,7 @@ The site was deployed to GitHub pages. The live site can be found at: [https://i
 
 ## Credits ##
 
+A big thanks to my Code Institute mentor [Simen Daehlin](https://dehlin.dev/#home) for his help preparing me for this project
 
 ### Design ###
 
@@ -173,14 +174,18 @@ The site was deployed to GitHub pages. The live site can be found at: [https://i
 
 * Color palette created in: [Coolors.co](https://coolors.co/)
 
-* Fonts sourced from: [Google Fonts](https://fonts.google.com/specimen/Cinzel+Decorative?preview.text=Explore%20Hyrule&preview.text_type=custom&category=Display#standard-styles)
-
 ### Content ###
 * Text content for introduction and info for details section taken from [nintendo.com](https://www.nintendo.com/games/detail/the-legend-of-zelda-breath-of-the-wild-switch/) promotional material for BotW
+
+* Images used are promotional material for The Legend of Zelda: Breath of the Wild, owned by Nintendo
+
+* Fonts sourced from: [Google Fonts](https://fonts.google.com/specimen/Cinzel+Decorative?preview.text=Explore%20Hyrule&preview.text_type=custom&category=Display#standard-styles)
+
+* Icons for social media in footer and navigation icons taken from [Font Awesome](https://fontawesome.com/)
 
 ### Code ###
 * JS Function used to show and hide mobile navigation found on: [w3schools.com](https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp)
 
-* JS Function used to switch between hero images and css animation to fade each image change found on: [w3schools.com](https://www.w3schools.com/howto/howto_js_slideshow.asp)
+* JS Function and used to switch between hero images and CSS animation to fade each image change found on: [w3schools.com](https://www.w3schools.com/howto/howto_js_slideshow.asp)
 
 * JS Function used in scroll to top button found on: [css-tricks.com](https://css-tricks.com/how-to-make-an-unobtrusive-scroll-to-top-button/)
