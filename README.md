@@ -16,6 +16,8 @@ Following are links to mobile and desktop wireframes used to design the layout o
 
 - [Desktop Wireframe](support-docs/wireframes/desktop-wireframe.png)
 
+Design remained true to wireframes throughout expect in the case of larger screens in which the hero image at the head of the page shrinks down. This was done both to establish as boundary from the sites with to then be broken by the parallax image later and also in order to ensure the content below it is visible above the page fold to encourage users to scroll.
+
 ### Colors ###
 Colors were chosen to fit in with the game content and its external media such as physical collectors' guides.
 
@@ -25,6 +27,8 @@ Colors were lifted from sample page text and screenshots of actual gameplay to c
 
 ![Color palette](support-docs/images/color-palette.png "Color palette created from sample images")
 *created using [coolors.co](https://coolors.co/)*
+
+While not all colors from the palette were used in the sites design they are visible in the images shown and having this pallette proved useful in visualizing how colours would interact with each other.
 
 ### Fonts ##
 The fonts and overall design are also influenced by the gameplay UI and guide book design in order to make the site fit in with already existing branding. Both fonts are sourced from [Google Fonts](https://fonts.google.com/specimen/Cinzel+Decorative?preview.text=Explore%20Hyrule&preview.text_type=custom&category=Display#standard-styles)
@@ -37,16 +41,26 @@ The fonts and overall design are also influenced by the gameplay UI and guide bo
     * On mobile screen sizes the navigation links are hidden to save screen space and can be revealed with a hamburger icon in the top right corner of the page
     * This allows the user to jump to lower sections of the page if the do not wish to scroll through all of the content
 
+![Desktop Header](support-docs/screenshots/header-desktop.png "Desktop version of header navigation")
+
+![Mobile Header](support-docs/screenshots/header-mobile.png "Mobile version of header navigation")
+
 * Hero Image Slideshow
     * Upon page load to user is greeted with a series of epic title images for the game giving them a clear idea of the game title and aesthetics.
     * The hero image automatically cycles through images to show some of the different aspects of the game.
+
+![Hero Image](support-docs/screenshots/hero-image-screenshot.jpg "Hero Image featuring BotW title card")
 
 * Introduction Section
     * This section gives a brief overview of the game and informs the user as to what console it is available on.
     * This section also features a portrait of the main protagonist of the game, Link.
 
+![Introduction Section](support-docs/screenshots/introduction-screenshot.png "Introduction section giving broad description of the game")
+
 * Gameplay Section
     * This section features a wide parallax scrolling image of the landscape of the game in the background. This image breaks the established boundaries of the desktop site in order to convey the sprawling and innovative nature of the game.
+    * In this section several cards provide information about the various selling points and features of the game and give the user a stronger idea of the type of experience they can expect from it
+    * These detail cards are responsive and vary in width and position depending of screen size
 
 
 ### Potential Future Features ###
