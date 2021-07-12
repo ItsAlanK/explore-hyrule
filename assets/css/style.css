@@ -24,6 +24,11 @@ h2 {
 
 h2 {
     font-size: 1.2em;
+    text-align: center;
+}
+
+strong {
+    color: #b99f65;
 }
 
 #logo {
@@ -48,13 +53,16 @@ header {
     display: block;
     height: 4em;
     padding: 5px 0;
-    background-color: #2b2b2b;
 }
 
 #nav-menu {
     clear: both;
     display: none;
     position: relative;
+}
+
+header,
+#nav-menu {
     background-color: #2b2b2b;
 }
 
@@ -110,8 +118,13 @@ header {
 }
 
 .heading,
-.content {
+.content,
+hr {
     grid-column: 2/3;
+}
+
+.heading,
+.content {
     justify-self: center;
     align-self: center;
     margin-top: 1em;
@@ -121,7 +134,6 @@ hr {
     border: 2px solid #b99f65;
     width: 60%;
     margin: auto;
-    grid-column: 2/3;
 }
 
 /* introduction section */
@@ -166,10 +178,6 @@ hr {
 }
 
 /* details section */
-strong {
-    color: #b99f65;
-}
-
 #purchase-details .grid {
     row-gap: 2px;
     column-gap: 2px;
@@ -186,6 +194,7 @@ strong {
     padding: 5px 5vw;
 }
 
+/* Every other card has darker/lighter bg */
 .details-card:nth-child(odd) {
     background-color: #3a3a3a;
 }
@@ -214,10 +223,6 @@ strong {
 }
 
 /* newsletter section */
-#newsletter h2 {
-    text-align: center;
-}
-
 .newsletter-form {
     max-width: 300px;
 }
@@ -372,7 +377,7 @@ footer {
         grid-template-columns: 1fr 6fr 2fr 1fr;
     }
 
-    .heading {
+    .heading, .underline{
         grid-column: 2/4;
         align-self: center;
     }
@@ -387,7 +392,6 @@ footer {
     }
 
     .underline {
-        grid-column: 2/4;
         width: 50%;
     }
 
@@ -480,15 +484,6 @@ footer {
     .grid {
         /* aligns grid to width of hero image container above taking up 68% screen width by leaving 16% either side */
         grid-template-columns: 16fr 51fr 17fr 16fr;
-    }
-
-    .heading {
-        grid-column: 2/4;
-        align-self: center;
-    }
-
-    .content {
-        grid-column: 2/3;
     }
 
     /* gameplay section */
