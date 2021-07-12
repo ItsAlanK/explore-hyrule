@@ -377,7 +377,8 @@ footer {
         grid-template-columns: 1fr 6fr 2fr 1fr;
     }
 
-    .heading, .underline{
+    .heading,
+    .underline {
         grid-column: 2/4;
         align-self: center;
     }
@@ -387,6 +388,10 @@ footer {
     }
 
     /* introduction section */
+    #introduction p {
+        margin: 0;
+    }
+
     #circle-container {
         grid-column: 3/4;
     }
