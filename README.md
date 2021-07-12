@@ -116,4 +116,4 @@ function hideMenu() {
 
 * JS Function used to switch between hero images and css animation to fade each image change found on: [w3schools.com](https://www.w3schools.com/howto/howto_js_slideshow.asp)
 
-* JS Function used in scroll to top button found on: [css-tricks.com])(https://css-tricks.com/how-to-make-an-unobtrusive-scroll-to-top-button/)
+* JS Function used in scroll to top button found on: [css-tricks.com](https://css-tricks.com/how-to-make-an-unobtrusive-scroll-to-top-button/)
