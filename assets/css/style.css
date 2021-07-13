@@ -80,6 +80,7 @@ header,
     text-decoration: none;
     color: #b99f65;
     padding: 0 5px;
+    transition: all 0.2s ease-in-out;
 }
 
 #nav-menu a:hover {
