@@ -157,6 +157,14 @@ function hideMenu() {
 
 * Solution - min-height of bg image increased to accomodate longer scrolling caused by smaller screen width pushing content down.
 
+![Parallax Error](support-docs/screenshots/mobile-error-screenshot.jpg "Mobile Parallax error")
+
+---
+
+* Bug - Javascrcipt error unfixed as it is not impacting functionality of site and javascript not reqruired for assignment brief. Will be fixed at later date.
+
+![Javascript Error](support-docs/screenshots/js-error.png "Javascript error")
+
 ## Deployment ##
 The site was deployed to GitHub pages. The live site can be found at: [https://itsalank.github.io/explore-hyrule/index.html](https://itsalank.github.io/explore-hyrule/index.html)
 
