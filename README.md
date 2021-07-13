@@ -9,7 +9,7 @@ The site will serve as a promotional piece to entice potential customers who are
 ## Design Choices ##
 
 ### Layout ###
-The site is designed as a single continuous page, rather than dividing each section up as individual pages, allowing the user to scroll through each section without interuption. This is done as the purpose of the page is to guide users through the content revealing it in order rather than leaving it up to the users to jump. The user however, still does has the ability to navigate through the sections in their own way should they desire or return the the beginning at all times using the navigation buttons.
+The site is designed as a single continuous page, rather than dividing each section up as individual pages, allowing the user to scroll through each section without interuption. This is done as the purpose of the page is to guide users through the content revealing it in order rather than leaving it up to the users to jump. The user however, still does have the ability to navigate through the sections in their own way should they desire or return the the beginning at all times using the navigation buttons.
 
 ### Wireframes ###
 Following are links to mobile and desktop wireframes used to design the layout of the website. Tablet sizes will retain most of the layout of the desktop version with minor scaling changes to account for screen sizes.
@@ -20,9 +20,13 @@ Following are links to mobile and desktop wireframes used to design the layout o
 
 - [Desktop Wireframe](support-docs/wireframes/desktop-wireframe.png)
 
+<<<<<<< HEAD
 ![Desktop Wireframe](support-docs/wireframes/desktop-wireframe-sample.png "sample of wireframe")
 
 Design remained true to wireframes throughout except in the case of larger screens in which the hero image at the head of the page shrinks down to less that 100% screen width. This was done both to establish a boundary for the site's content to then be broken by the parallax image later and also in order to ensure the content below it is visible above the page fold to encourage users to scroll.
+=======
+Design remained true to wireframes throughout except in the case of larger screens in which the hero image at the head of the page shrinks down to less than 100% screen width. This was done both to establish a boundary for the site's content to then be broken by the parallax image later and also in order to ensure the content below it is visible above the page fold to encourage users to scroll.
+>>>>>>> 6ca2ae7839a211ae455faa22cacf329282cbba49
 
 ### Colors ###
 Colors were chosen to fit in with the game content and its external media such as physical collectors' guides.
