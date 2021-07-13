@@ -20,6 +20,7 @@ h2 {
     font-family: 'Cinzel Decorative', 'Lucida Sans', sans-serif;
     font-weight: 900;
     color: #b99f65;
+    text-shadow: 0 0 1px rgb(0, 0, 0.5);
 }
 
 h2 {
