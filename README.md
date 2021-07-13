@@ -100,7 +100,7 @@ Typography icons used are found on [Font Awesome](https://fontawesome.com/).
 
 ### Potential Future Features ###
 
-* Hero image slideshow could be replaced by promotional video if desired.
+* Hero image slideshow could be replaced by promotional audio free/muted video if desired.
 
 * Character introduction section to familiarize users with some of the characters of the game and show off their designs.
 
@@ -112,14 +112,20 @@ This feedback comprised mainly of visual issues surrounding varying device sizes
 
 While I worked on this project through Google Chrome I also loaded the page at various intervals on Mozilla Firefox and Microsoft Edge to ensure there was not major browser specific issues.
 
+![Mozilla Firefox Testing](support-docs/screenshots/firefox-testing.jpg) 
+![Microsoft Edge Testing](support-docs/screenshots/ms-edge-testing.png)
+
 ### Validator Testing ###
 * HTML
     * No errors present when passing through [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fitsalank.github.io%2Fexplore-hyrule%2Findex.html)
     * Some warnings are present however they relate to intentionally choices
+        * *Warning 1* - **Empty heading.** ```<h1 id="menu-icon">```. This heading contains a font awesome icon.
+        * *Warning 2* - **Possible misuse of aria-label.** ```<i class="fas fa-chevron-circle-up" id="scroll-to-top-button" onclick="topFuction()" aria-label="Scroll back to top"></i>```. This label is being used to label an font awesome icon with no text to give it context so label is justified.
+        * *Warning 3* -  **Section lacks heading.** This section is used to house hero images so does not require heading of any text.
 
 * CSS
     * No errors present when passing through [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fitsalank.github.io%2Fexplore-hyrule%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-    * Some warnings present relating to webkit extensions required for animation in certain browsers
+    * All warnings present relate to webkit extensions required for animation in certain browsers which validator does not recognise.
 
 ### Bugs ###
 * Bug - Menu icon in mobile header required 2 clicks to reveal navigation menu on page load
@@ -182,9 +188,17 @@ The site was deployed to GitHub pages. The live site can be found at: [https://i
     * Deployment may take a few seconds or minutes, after which navigate back to the pages section and find the link to the live site highlighted in green.
     * _Alternatively once the page site is deployed on pages you can find a link to the site via the enviroments section to the right of the main repository page._
 
+* To create a local copy of this project:
+    * In the terminal type: 
+    ```git clone https://github.com/ItsAlanK/explore-hyrule.git```
+    * This will create a copy of all files on your machine.
+
+
 ## Credits ##
 
-A big thanks to my Code Institute mentor [Simen Daehlin](https://dehlin.dev/#home) for his help preparing me for this project
+A big thanks to my Code Institute mentor [Simen Daehlin](https://dehlin.dev/#home) for his help preparing me for this project.
+
+And thank you to Code Institute mentor Tim Nelson for his invaluable advice in polishing this project.
 
 ### Design ###
 
