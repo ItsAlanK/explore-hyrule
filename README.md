@@ -16,7 +16,11 @@ Following are links to mobile and desktop wireframes used to design the layout o
 
 - [Mobile Wireframe](support-docs/wireframes/mobile-wireframe.png)
 
+![Mobile Wireframe](support-docs/wireframes/mobile-wireframe-sample.png "sample of wireframe")
+
 - [Desktop Wireframe](support-docs/wireframes/desktop-wireframe.png)
+
+![Desktop Wireframe](support-docs/wireframes/desktop-wireframe-sample.png "sample of wireframe")
 
 Design remained true to wireframes throughout except in the case of larger screens in which the hero image at the head of the page shrinks down to less that 100% screen width. This was done both to establish a boundary for the site's content to then be broken by the parallax image later and also in order to ensure the content below it is visible above the page fold to encourage users to scroll.
 
