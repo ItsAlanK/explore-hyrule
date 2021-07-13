@@ -193,6 +193,16 @@ The site was deployed to GitHub pages. The live site can be found at: [https://i
     ```git clone https://github.com/ItsAlanK/explore-hyrule.git```
     * This will create a copy of all files on your machine.
 
+## Technologies ##
+
+The technologies used in this project are:
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) is the main building block of the project housing all of its content and structure.
+
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) is used for the styling of the site.
+    * [CSS Grids](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) is used to control the majority of the layout and responsive changes to the site.
+
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) is used for animating the hero image, scroll to top feature and mobile menu functionality.
 
 ## Credits ##
 
